@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace C_Sharp_Projects
 {
@@ -6,7 +6,7 @@ namespace C_Sharp_Projects
     {
         static void Main(string[] args)
         {
-            Console.Title = "Simple Console Calculator";
+            // Console.Title = "Simple Console Calculator";
             Console.WriteLine("Welcome to the console calculator v.1.0!");
             Console.WriteLine("Enter a number...");
             decimal x = Convert.ToDecimal(Console.ReadLine());
